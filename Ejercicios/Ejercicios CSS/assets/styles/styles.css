@@ -1,0 +1,41 @@
+/* este es un comentario */
+/* selector universal  "*{" */
+body{
+    background-image: url(https://img.freepik.com/free-photo/shadow-tropical-leaves-background-shadows-from-palm-leaves-white-wall-background-3d-illustration-render_1258-108618.jpg?w=996&t=st=1690494297~exp=1690494897~hmac=bbdb9593d5d2b4e414ac954a6b2b137f5a94d1d40bcb4881e5936db42377b24b);
+}
+
+/* seletor de tipo o etiqueta */
+h1,
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h2{
+    color: rgb(101, 141, 156);
+}
+
+/* selector por clase */
+.lista {
+    color: blueviolet;
+}
+.lista-de-uchihas {
+    color: rgb(255, 0, 34);
+}
+
+/* selector por id */
+#list {
+    color: chartreuse;
+
+}
+
+div{
+    background-color:  black;
+    opacity: 50%;
+
+}
+/* Pseudoclases */
+div:hover{
+    background-color: chocolate;
+}
